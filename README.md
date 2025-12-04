@@ -21,6 +21,13 @@ Windows er jonno : https://gekorm.com/dart-windows/
  সবচেয়ে সহজ এ windows এর জন্য ইনস্টল করতে পারবে এই খান থেকে। 
 
  ম্যাক এর জন্য https://dart.dev/get-dart এই ওয়েবসাইট দেখতে পারেন। 
+ যদি windows এর জন্য ডাউনলোড করতে চান এই খান থেকে : প্রথম এ উপরের dart.dev লিংক থেকে   Chocolatey  প্যাকেজ ম্যানেজার ইনস্টল করে নিতে হবে . 
+ ইনস্টল process https://chocolatey.org/install
+
+ এটা ইনস্টল এর পর windows  PowerShell এ মানে cmd  এর মদ্যে C:\> choco install dart-sdk লিখে run দিলেই হবে। সব কিচু  gekorm.com/dart-windows এই লেখা আছে। 
+
+ MacOS : gekorm.com/dart-windows এই ওয়েবসাইট থেকে macOS এর ফাইল mac  এর terminal  এ Homebrew এর command গুলা লিখবেন। Environment  সেটআপ done .
+  এইবার IntelliJ IDEA ইনস্টল করলে dart কাজ করবে properly 
 
  
  
