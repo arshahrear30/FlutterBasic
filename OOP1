@@ -1,0 +1,24 @@
+class Car{ //class er modde ki ki object thakte pare ta define korbo .. 
+    String? brand;
+    String? model;
+    int? year;
+    
+    void displayInfo(){
+        print("car:$brand,$model,$year");
+        
+    }
+    
+}
+
+
+void main(){
+    Car mycar=Car(); // Object dorlam Car, Variable name dilam = abr Car class ke inisialize korlam ();
+    //cailay dart theke default deya var use kortay partam 1st Car er jaygay(Car mycar )..jehetu ami create korci tai Car name Object dortay parci ..
+    mycar.brand="Toyota";
+    mycar.model="Corola";
+    mycar.year=2020;
+    
+    mycar.displayInfo();
+    
+}
+
