@@ -1,0 +1,16 @@
+class Student{
+    
+    String? name;
+    int? roll;
+    double? salary;
+    
+}//Class keno amra use kori? .. Class er vitor amra vivinno data type rakte pari . pore class diya call korlay sobgula niya kaz kortay pari .. atai main subida .. // ai khane name ,roll,salary aigula sob Attribute .  
+
+//ekon amra object diya ager class gular data access korbo..\
+void main(){
+    
+    Student studentob1 = Student(); //studentob1  tai object
+    studentob1.name="x";
+    studentob1.roll=55;
+    
+}
