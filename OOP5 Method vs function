@@ -1,0 +1,23 @@
+class Student{
+    String? name;
+    
+    
+    int display(){ //ata ekta function 
+                  //jehetu return use korci tai bolbo ata return type function
+                  //function class er bitor thaklay atakay method bole
+    print(name);
+    return 0 ; 
+    }
+    
+    
+}
+
+
+
+void main(){ //main function eta
+    Student studentob1 = Student(); //studentob1  tai object
+    studentob1.name="A R Shahrear";
+    studentob1.display();
+}
+
+
