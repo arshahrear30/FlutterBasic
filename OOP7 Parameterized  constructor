@@ -21,13 +21,13 @@ class Student{
     
     } // Student(this.name, this.roll, this.salary); ei line likleo hoibo eki kaz..ei line dia i boro boro program kore .. tai amra upored String x  .... ei gula korbo na  ,, bujar jonno likci akon ,...
     
-    void display(){ //void er suvida hoccay o auto nije nije bujay nibay atar data type ki .. 
+    void display(){ //void er suvida hoccay o auto nije nije bujay nibay atar data type ki .. //eta akta method ..
         print(name);
         print(roll);
         print(salary);
     }
     
-
+//Mind it: Dart programing a akoi name a 2 ta method or Constructor Allow kore na .. that mean overloading not accepted 
     
 }
 
