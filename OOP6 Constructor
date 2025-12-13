@@ -5,7 +5,9 @@
 
 class Student{
     
+    Student(){//default constructor //jokon Student er () maje kono data pass korbo tokon etakay parameterized constructor boli
     
+    }
     
 
     
@@ -15,8 +17,7 @@ class Student{
 
 void main(){
     
+    Student ob=Student();//eikhane Student() eta default constructor ke call kore .. ager class e jodi default constructor na o ditam tailay o hoito .,karon default vabe eta auto hidden way tey call hoy .. ekon amra visible kore deklam ,,
    
     
 }
-
-
